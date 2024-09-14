@@ -208,7 +208,6 @@ class GridsizerElement {
                 enforcedDeficit += minDimensions[index] - size;
             }
         });
-        //enforcedDeficit = Math.floor(enforcedDeficit);
 
         //If there is a deficit, enforce it proportionally on all elements
         //that are not at or below the minimum dimension
